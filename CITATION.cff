@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "ZEBRA-Prop"
+type: software
+authors:
+  - family-names: Yamamoto
+    given-names: Ryoma
+  - family-names: Takahashi
+    given-names: Akira
+  - family-names: Terayama
+    given-names: Kei
+  - family-names: Kumagai
+    given-names: Yu
+  - family-names: Oba
+    given-names: Fumiyasu
+repository-code: "https://github.com/oba-group/ZEBRA-Prop"
+license: MIT
+preferred-citation:
+  type: article
+  title: "ZEBRA-Prop: A Zero-Shot Embedding-Based Rapid and Accessible Regression Model for Materials Properties"
+  authors:
+    - family-names: Yamamoto
+      given-names: Ryoma
+    - family-names: Takahashi
+      given-names: Akira
+    - family-names: Terayama
+      given-names: Kei
+    - family-names: Kumagai
+      given-names: Yu
+    - family-names: Oba
+      given-names: Fumiyasu
+  year: 2026
+  journal: "arXiv"
+  volume: "arXiv:2603.26060"
+  doi: "10.48550/arXiv.2603.26060"
+  url: "https://arxiv.org/abs/2603.26060"
+  date-released: 2026-03-27

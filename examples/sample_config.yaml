@@ -1,0 +1,15 @@
+data_dir: ./examples/data
+output_dir: ./output
+
+property_name: band_gap
+task_name: sample
+hf_model_name: lfoppiano/MatTPUSciBERT
+max_length: 128
+
+epochs: 3
+bs: 4
+lr: 0.001
+
+num_of_fold: 5
+test_fold: 0
+seed: 42

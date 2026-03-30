@@ -1,0 +1,21 @@
+data_dir: ./ZEBRA-dataset/data
+output_dir: ./output
+
+property_name: band_gap
+task_name: sample
+# Description CSV path:
+# {data_dir}/description/{task_name}/*.csv
+hf_model_name: lfoppiano/MatTPUSciBERT
+max_length: 512
+
+epochs: 200
+bs: 16
+lr: 0.001
+
+num_of_fold: 5
+test_fold: 0
+seed: 42
+
+# Optional output artifacts
+save_prediction_values: true
+save_parity_plot: true
